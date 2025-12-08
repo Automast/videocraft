@@ -1,7 +1,7 @@
 {
     "name": "iprolistall-backend",
     "version": "1.0.0",
-    "description": "Backend for AI Video Blueprint Course payment and notifications",
+    "description": "Backend for AI Video Craft Course payment and notifications",
     "main": "server.js",
     "scripts": {
         "start": "node server.js",
