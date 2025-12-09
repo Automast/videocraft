@@ -464,13 +464,25 @@
 
         .cx_2c {
             position: absolute;
-            top: -40px;
-            right: 0;
+            top: 10px;
+            right: 10px;
             color: white;
-            font-size: 30px;
-            background: none;
+            font-size: 24px;
+            background: rgba(0, 0, 0, 0.6);
             border: none;
             cursor: pointer;
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 10;
+            transition: background 0.2s;
+        }
+
+        .cx_2c:hover {
+            background: rgba(0, 0, 0, 0.8);
         }
 
         /* Checkout Modal Specifics */
@@ -609,8 +621,8 @@
                     <div class="cx_1v">Creative Stories</div>
                 </div>
             </div>
-            <p style="text-align: center; font-size: 13px; color: #666; margin-top: 10px;">*These are examples of the
-                output quality—results depend on your creativity and practice.</p>
+            <p style="text-align: center; font-size: 13px; color: #666; margin-top: 10px;">*These are just samples -
+                apply these skills to bring almost any video idea you can imagine to life.</p>
         </section>
 
         <button class="cx_1g cx_1h cx_2j">Join The Course — Only <span class="cx_2k">Loading...</span></button>
